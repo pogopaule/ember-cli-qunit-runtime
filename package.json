@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-qunit-runtime",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Adds a 'Sort by runtime' checkbox to QUnit's toolbar",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,18 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/pogopaule/ember-cli-qunit-runtime.git"
+  },
+  "bugs": {
+    "url": "http://www.github.com/pogopaule/ember-cli-qunit-runtime/issues"
+  },
+  "homepage": "http://www.github.com/pogopaule/ember-cli-qunit-runtime",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "pogopaule",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
@@ -34,7 +41,11 @@
     "ember-try": "0.0.4"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "qunit",
+    "runtime",
+    "slow",
+    "time"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0"
