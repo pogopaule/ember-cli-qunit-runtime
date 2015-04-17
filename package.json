@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-qunit-runtime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds a 'Sort by runtime' checkbox to QUnit's toolbar",
   "directories": {
     "doc": "doc",
