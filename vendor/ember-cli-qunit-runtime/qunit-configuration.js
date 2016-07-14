@@ -3,7 +3,7 @@
 $(document).ready(function() {
   QUnit.config.urlConfig.push({ id: 'sortruntime', label: 'Sort by runtime'});
 
-  QUnit.done(function() {
+  QUnit.testDone(function() {
     if(QUnit.urlParams.sortruntime) {
       var extractRuntime = function(listItem) {
         return parseInt($($(listItem).find('.runtime')[0]).text().slice(0, -3));
